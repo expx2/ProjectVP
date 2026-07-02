@@ -286,8 +286,6 @@ bool Enqueue(int x, int z, int spanIndex, ushort distance)
 
 ### Marching Squares
 
-메쉬 생성 부분에서 가장 많은 고민을 했습니다.
-
 Recast에서 사용하는 메쉬(poly) 생성은 외곽선을 구하고, Ear Clipping으로 메쉬를 생성하는 것으로 파악했습니다.
 
 하지만 `독사의 구덩이`는 콘셉트상 메쉬가 출렁이는 효과가 있고, 생성될 때도 기준점으로부터 점진적으로 바닥에서 올라오는 방식이기 때문에 버텍스가 균일하게 분포되어 있어야 합니다.
@@ -359,7 +357,7 @@ linkedIndexes.Dispose();
 <img src="https://github.com/user-attachments/assets/02ca6535-469f-451a-9783-e3f5b9561252" width="600">
 <img src="https://github.com/user-attachments/assets/7360ca88-ed9e-4141-b933-6233aacd9f8f" width="600">
 
-### 포스트모템
+## 포스트모템
 
 경력을 이어오며 다양한 기능과 콘텐츠를 만들었지만, 어느 한 기능을 시간을 들여 깊게 연구하고 개발한 경험은 없었습니다.
 
