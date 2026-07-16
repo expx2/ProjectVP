@@ -301,7 +301,7 @@ Marching Squares는 평면을 만드는 알고리즘이기에, 아래와 같은 
 2. 윗면을 복사하여 아랫면 생성
 3. 복사된 외곽선을 이어 벽면 생성
 
-핵심 스크립트 [MarchingSquaresGenerator.cs](https://github.com/silsuwoang/ProjectVP/blob/main/Assets/Scripts/MarchingSquares/MarchingSquaresGenerator.cs)
+핵심 스크립트 [MarchingSquaresGenerator.cs](https://github.com/expx2/ProjectVP/blob/main/Assets/Scripts/MarchingSquares/MarchingSquaresGenerator.cs)
 
 <details>
 <summary>기록된 외곽점으로 외곽선 Ring을 만드는 코드</summary>
